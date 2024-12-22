@@ -1,0 +1,350 @@
+.image-1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  border: 0%;
+}
+.image-2 {
+  height: 50%;
+  width: 50%;
+  margin-top: 0%;
+  padding-top: 0%;
+  position:relative;
+  object-fit: cover;
+  float: right;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  border: 0%;
+}
+body{
+    margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.div1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+}
+
+.div2 {
+  color: #000000;
+  text-align: left;
+  position: relative;
+  height: 702px;
+}
+.div-span3 {
+  color: #000000;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.div-span4 {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.div3 {
+    
+  color: #000000;
+  text-align: left;
+  position: relative;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 800px;
+  background-image: url("img/image-1.png");
+}
+.div-span5 {
+  color: #000000;
+  font-size: 85px;
+  font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: italic;
+  
+}
+.div-span4 {
+  color: #000000;
+  
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Cormorant Infant", serif;
+
+    font-style: italic;
+}
+.div31{
+    margin-left: 100px;
+    padding-top: 150px;
+}
+.cormorant-infant-bold-italic {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+
+
+.image-18 {
+  width: 246px;
+  height: 201px;
+  position: relative;
+  object-fit: cover;
+  
+}
+
+
+.ban {
+  background: rgba(0, 0, 0, 0.38);
+  height: 50px;
+  position: relative;
+  color: #000000;
+    text-align: right;
+    
+    font-size: 24px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 12px;
+  padding-right: 30px;
+  word-spacing:25px
+}
+
+.cormorant-garamond-semibold {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+.moscow {
+    width: 150px;
+    height: 38px;
+    position: relative;
+    object-fit: cover;
+    padding-left: 30px;
+
+  }
+#list {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-image: url("img/Rectangle-20.png");
+    height: 500px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 960px;
+    word-spacing:7px ;
+}
+
+.hover-effect {
+    transition: transform 0.3s ease; 
+    display: inline-block; 
+}
+
+.hover-effect:hover {
+    transform: scale(1.2); 
+}
+.web{
+    height: 741px; 
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px 0;
+}
+.image-19 {
+    margin-top: 10px ;
+    height: 720px;
+    position: relative;
+    object-fit: cover;
+    margin-right: 100px;
+  }
+
+  .div8 {
+    color: #000000;
+    text-align: left;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+
+  }
+
+  gmail{
+    color: #000000;
+    margin-bottom: 50px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 45px;
+    font-weight: 400;
+    position: relative;
+    height: 458px;
+    margin-left: 200px;
+    font-weight: bolder;
+    
+  }
+
+  gmail2{
+    color: #000000;
+    text-align: left;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    height: 458px;
+    margin-left: 100px;
+   
+  }
+
+  #modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10px;
+}
+#modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 500px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.star {
+    font-size: 50px;
+    cursor: pointer;
+    color: gray;
+}
+.star.filled {
+    color: gold; 
+}
+.love{
+    height: 50px;
+    width: 480px;
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+}
+.love1{
+    height: 150px;
+    width: 480px;
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+}
+.like{
+    background-color: cornflowerblue;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    border: 0cm;
+    height: 50px;
+    width: 300px;
+    align-content: center;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 30px;
+    font-family: "Cormorant Garamond", serif;
+}
+tool{
+    padding-right: 45px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; 
+    padding: 10px 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1000; 
+    font-family: "Cormorant Garamond", serif;
+    font-size: 35px;
+
+}
+.back-to-top:hover {
+    background-color: rgb(33, 95, 209);
+    border-radius: 50px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bolder;
+}
+#map {
+   
+    height: 600px; 
+}
+
+.meuw{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    font-weight: bolder;   
+    margin-bottom: 30px;
+}
+.meuw2{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    float: left;
+    font-weight: bolder; 
+    
+}
+.meuw3{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    float: right;
+    font-weight: bolder; 
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.red{
+    margin-top: 10px ;
+    height: 720px;
+    position: relative;
+    object-fit: cover;
+    float: right;
+    margin-left: 80px;
+}
+.red1{
+    
+    text-align: left;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.meuw5{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 36px;
+    font-weight: bolder;   
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
